@@ -1,0 +1,501 @@
+age,gender,subtype,ybocs_baseline,severity,num_treatment_steps,treatments_tried,final_ybocs,total_reward,final_response,pct_improvement,achieved_remission
+36,female,"('ordering', 0.136431784107946)",15.638030291022826,moderate,1,['CBT'],2.1416584322166123,13.496371858806214,adequate,86.30480698425266,True
+28,male,"('any of the above', 0.4227886056971514)",22.60394685448116,moderate,1,['CBT'],9.8170806658468,12.786866188634358,adequate,56.569174715164415,True
+80,female,"('sexual_religious', 0.03448275862068965)",32.54397621090655,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+29,female,"('moral', 0.06296851574212893)",25.328906290320305,severe,1,['SSRI_plus_CBT'],0.06752820468792384,25.26137808563238,adequate,99.73339470755698,True
+26,female,"('any of the above', 0.4227886056971514)",8.292115235806964,mild,1,['SSRI'],,-20.0,dropout,,False
+33,female,"('ordering', 0.136431784107946)",21.059056588263946,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",9.812496651158582,23.43964995781287,adequate,53.40486118154498,True
+39,female,"('any of the above', 0.4227886056971514)",16.38368796733686,moderate,1,['CBT'],0.0,16.38368796733686,adequate,100.0,True
+44,female,"('checking', 0.23088455772113942)",11.783683119933096,mild,1,['SSRI'],,-20.0,dropout,,False
+41,male,"('any of the above', 0.4227886056971514)",29.139826700238896,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+38,male,"('ordering', 0.136431784107946)",25.14983147558953,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+36,male,"('any of the above', 0.4227886056971514)",26.60198149685578,severe,1,['SSRI_plus_CBT'],9.730060876286009,16.871920620569774,adequate,63.423548439667734,True
+51,female,"('any of the above', 0.4227886056971514)",19.319302307741694,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",0.9729635337557875,29.391312429322028,adequate,94.96377499426623,True
+54,male,"('any of the above', 0.4227886056971514)",26.943001896725914,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+59,male,"('ordering', 0.136431784107946)",16.911437523872312,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",4.879825465904704,30.52095639339864,adequate,71.14482160953908,True
+24,female,"('any of the above', 0.4227886056971514)",13.468653735697226,mild,1,['SSRI_plus_CBT'],6.4217966015126855,7.04685713418454,adequate,52.32042691473758,True
+56,male,"('checking', 0.23088455772113942)",16.775977070994085,moderate,1,['SSRI_plus_CBT'],2.313816734668838,14.462160336325248,adequate,86.20755902993298,True
+43,female,"('checking', 0.23088455772113942)",18.104306465382546,moderate,1,['SSRI'],,-20.0,dropout,,False
+37,male,"('any of the above', 0.4227886056971514)",22.452864286311073,moderate,1,['SSRI'],14.493135805697879,7.959728480613194,adequate,35.45083771546258,False
+25,female,"('any of the above', 0.4227886056971514)",15.944185071330734,moderate,1,['CBT'],7.719596300133516,8.224588771197219,adequate,51.583625844796956,True
+18,male,"('any of the above', 0.4227886056971514)",6.202561175282126,subclinical,1,['SSRI'],,-20.0,dropout,,False
+18,female,"('any of the above', 0.4227886056971514)",32.301530093235336,extreme,1,['SSRI_plus_CBT'],1.4803285611721635,30.82120153206317,adequate,95.41715653438294,True
+51,female,"('any of the above', 0.4227886056971514)",29.859711641926175,severe,1,['SSRI_plus_CBT'],16.320739827202935,13.53897181472324,adequate,45.34193758158435,False
+33,male,"('moral', 0.06296851574212893)",19.878617695590577,moderate,1,['CBT'],9.54014322693391,10.338474468656667,adequate,52.0080149785763,True
+20,female,"('other_oc', 0.01649175412293853)",34.595481610899085,extreme,1,['SSRI_plus_CBT'],15.247109464180651,19.348372146718432,adequate,55.927454239061234,False
+24,female,"('any of the above', 0.4227886056971514)",24.76522267200935,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+41,female,"('any of the above', 0.4227886056971514)",18.908126034350268,moderate,1,['CBT'],0.4808051353790529,18.427320898971214,adequate,97.45715078001078,True
+38,female,"('checking', 0.23088455772113942)",15.871323571926307,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",7.206027203637052,28.58666889228249,adequate,54.59718799770865,True
+52,female,"('checking', 0.23088455772113942)",22.210931056152432,moderate,1,['CBT'],,-20.0,dropout,,False
+38,male,"('harming', 0.02548725637181409)",21.72859730072836,moderate,1,['CBT'],9.332910111072488,12.395687189655872,adequate,57.047802111185334,True
+60,male,"('contamination', 0.043478260869565216)",9.087377849675807,mild,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",0.913492066502049,26.975877438766652,adequate,89.94768258112391,True
+46,female,"('ordering', 0.136431784107946)",31.182899243170937,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+20,female,"('any of the above', 0.4227886056971514)",23.57245559230457,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+56,male,"('any of the above', 0.4227886056971514)",18.382912603262856,moderate,2,"['SSRI', 'switch_different_SSRI']",7.194436651060771,18.933287909568485,adequate,60.863456154473575,True
+47,female,"('any of the above', 0.4227886056971514)",22.058387450693715,moderate,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+44,female,"('any of the above', 0.4227886056971514)",35.06867476734712,extreme,1,['SSRI_plus_CBT'],16.203189798330655,18.865484969016464,adequate,53.79583087805288,False
+36,male,"('harming', 0.02548725637181409)",29.111937237093187,severe,1,['SSRI_plus_CBT'],6.073991873735871,23.037945363357316,adequate,79.13573451238192,True
+21,female,"('contamination', 0.043478260869565216)",40.0,extreme,1,['SSRI_plus_CBT'],24.356827107963657,15.643172892036343,adequate,39.10793223009086,False
+87,male,"('any of the above', 0.4227886056971514)",26.635341452143447,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",,-22.961385898613305,dropout,,False
+23,female,"('other_oc', 0.01649175412293853)",23.237124515005167,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+29,male,"('any of the above', 0.4227886056971514)",15.968066474789518,moderate,2,"['CBT', 'augment_antipsychotic']",5.8935842652289905,19.65512605199895,adequate,63.09143455449777,True
+82,female,"('checking', 0.23088455772113942)",6.239288183639536,subclinical,1,['SSRI'],0.0,6.239288183639536,adequate,100.0,True
+89,female,"('harming', 0.02548725637181409)",27.24635204659712,severe,1,['SSRI_plus_CBT'],15.605094977183894,11.641257069413227,adequate,42.72592914274973,False
+42,male,"('any of the above', 0.4227886056971514)",36.418445062020346,extreme,2,"['SSRI_plus_CBT', 'augment_antipsychotic']",,-8.076258228758252,dropout,,False
+49,male,"('any of the above', 0.4227886056971514)",9.382483214369177,mild,1,['SSRI'],5.742112250084024,3.640370964285153,adequate,38.79965336585907,True
+61,male,"('sexual_religious', 0.03448275862068965)",20.275234334035282,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",9.346822622580799,19.49525451436294,adequate,53.90029792705954,True
+22,female,"('ordering', 0.136431784107946)",29.810946316521047,severe,1,['SSRI_plus_CBT'],5.85629656960013,23.954649746920918,adequate,80.35521413033908,True
+41,female,"('checking', 0.23088455772113942)",22.620331688974275,moderate,1,['SSRI'],,-20.0,dropout,,False
+46,female,"('checking', 0.23088455772113942)",16.357950111382273,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",1.6783055098228954,25.909301437330267,adequate,89.74012331376969,True
+47,female,"('checking', 0.23088455772113942)",4.514461451180102,subclinical,1,['SSRI_plus_CBT'],0.5470973811700377,3.9673640700100643,adequate,87.88122598705492,True
+49,female,"('checking', 0.23088455772113942)",18.561581719555292,moderate,1,['SSRI'],,-20.0,dropout,,False
+43,female,"('moral', 0.06296851574212893)",20.362030676215095,moderate,3,"['CBT', 'augment_antipsychotic', 'augment_glutamate_modulator']",,-2.1238041611240295,dropout,,False
+34,female,"('any of the above', 0.4227886056971514)",0.0,subclinical,2,"['SSRI', 'switch_different_SSRI']",0.0,9.375880182947846,poor,0.0,True
+44,male,"('checking', 0.23088455772113942)",20.185936811535218,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",10.72667546181484,16.89815045712039,adequate,46.86065074926272,True
+34,female,"('any of the above', 0.4227886056971514)",22.209219473804147,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",6.840121065328367,21.042139661966516,adequate,69.2014342359203,True
+27,female,"('sexual_religious', 0.03448275862068965)",33.44827115655845,extreme,1,['SSRI_plus_CBT'],10.667016657233388,22.78125449932506,adequate,68.10891478574422,True
+21,female,"('any of the above', 0.4227886056971514)",4.174778095280014,subclinical,1,['SSRI'],0.49268648380040525,3.682091611479609,adequate,88.19849887692392,True
+59,male,"('checking', 0.23088455772113942)",21.00653325150665,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",,-13.723424296407861,dropout,,False
+49,male,"('any of the above', 0.4227886056971514)",24.238470056911545,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_glutamate_modulator']",22.711265249735284,-0.6695250152413088,poor,6.300747545494449,False
+25,female,"('checking', 0.23088455772113942)",12.905280980531531,mild,2,"['SSRI', 'add_CBT_if_not_provided']",0.0,23.946131133811427,adequate,100.0,True
+63,female,"('contamination', 0.043478260869565216)",4.1932652566605615,subclinical,1,['CBT'],0.4919191715065057,3.701346085154056,adequate,88.26882771784724,True
+42,male,"('any of the above', 0.4227886056971514)",19.22857450707688,moderate,1,['SSRI'],,-20.0,dropout,,False
+37,male,"('any of the above', 0.4227886056971514)",28.972131105534853,severe,1,['SSRI_plus_CBT'],4.73175374408386,24.240377361450992,adequate,83.66791270256297,True
+44,male,"('checking', 0.23088455772113942)",11.04229470404007,mild,1,['SSRI'],,-20.0,dropout,,False
+26,female,"('any of the above', 0.4227886056971514)",6.866807666127317,subclinical,2,"['SSRI', 'add_CBT_if_not_provided']",0.046980593764742055,16.564459375795675,adequate,99.31583064432562,True
+49,female,"('any of the above', 0.4227886056971514)",14.848088486589239,mild,1,['SSRI'],7.708418479275019,7.13967000731422,adequate,48.08477544946445,True
+63,female,"('checking', 0.23088455772113942)",26.237564975946675,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+39,male,"('checking', 0.23088455772113942)",30.99248530394748,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_clomipramine']",29.04931477106154,4.6856262675841265,poor,6.269811903850256,False
+47,female,"('checking', 0.23088455772113942)",27.633731415232955,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",12.758826378407853,8.77761207755905,adequate,53.82879645644013,False
+82,female,"('any of the above', 0.4227886056971514)",31.469343383258742,extreme,1,['SSRI_plus_CBT'],6.962087170981038,24.507256212277703,adequate,77.87660490340966,True
+30,female,"('any of the above', 0.4227886056971514)",19.049985894494036,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",5.838814727436979,31.085608704156854,adequate,69.35003122955301,True
+86,female,"('any of the above', 0.4227886056971514)",18.283322567979084,moderate,1,['CBT'],,-20.0,dropout,,False
+22,female,"('any of the above', 0.4227886056971514)",9.505554522823852,mild,2,"['SSRI', 'switch_different_SSRI']",,-21.272864327225285,dropout,,False
+26,male,"('checking', 0.23088455772113942)",10.513269787737832,mild,1,['CBT'],6.423671409027504,4.089598378710328,adequate,38.89939534777503,True
+33,male,"('any of the above', 0.4227886056971514)",13.748052933191426,mild,1,['SSRI'],7.690780289829063,6.057272643362363,adequate,44.059130938741944,True
+42,female,"('checking', 0.23088455772113942)",1.846107527567379,subclinical,1,['SSRI'],0.0,1.846107527567379,adequate,100.0,True
+53,male,"('ordering', 0.136431784107946)",6.323630657543685,subclinical,1,['CBT'],0.07526594592918776,6.248364711614498,adequate,98.8097668885927,True
+26,male,"('any of the above', 0.4227886056971514)",12.909927193352164,mild,1,['SSRI_plus_CBT'],0.0,12.909927193352164,adequate,100.0,True
+44,male,"('any of the above', 0.4227886056971514)",20.232314269250228,moderate,2,"['CBT', 'augment_antipsychotic']",5.661768317996267,22.678419670616798,adequate,72.01621009514855,True
+28,male,"('ordering', 0.136431784107946)",25.261369539967557,severe,1,['SSRI_plus_CBT'],11.349658140212721,13.911711399754836,adequate,55.07108938707487,True
+55,male,"('checking', 0.23088455772113942)",16.168146776376553,moderate,1,['SSRI'],,-20.0,dropout,,False
+81,male,"('checking', 0.23088455772113942)",14.17838490852389,mild,2,"['CBT', 'augment_antipsychotic']",,-15.635617909926056,dropout,,False
+23,female,"('ordering', 0.136431784107946)",13.861426707886318,mild,1,['CBT'],0.9874930057007223,12.873933702185596,adequate,92.87596416652481,True
+50,male,"('moral', 0.06296851574212893)",26.67931685921603,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",,-11.916206823238152,dropout,,False
+26,male,"('checking', 0.23088455772113942)",14.183951707409637,mild,1,['SSRI'],5.447060389988023,8.736891317421614,adequate,61.597018219242095,True
+56,female,"('ordering', 0.136431784107946)",26.00527775478539,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_clomipramine']",13.14521665781322,8.628284275647582,adequate,49.4517352140402,False
+27,male,"('checking', 0.23088455772113942)",17.958027399259354,moderate,2,"['SSRI', 'switch_different_SSRI']",9.218978085834745,17.63776571104017,adequate,48.6637486352484,True
+59,female,"('checking', 0.23088455772113942)",6.985883731354374,subclinical,1,['SSRI_plus_CBT'],0.0,6.985883731354374,adequate,100.0,True
+78,male,"('checking', 0.23088455772113942)",1.0318854417628232,subclinical,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",0.40382055867930544,17.94152253006918,adequate,60.86575676565047,True
+34,female,"('checking', 0.23088455772113942)",16.086384125549984,moderate,2,"['SSRI', 'switch_different_SSRI']",7.463435676468996,15.834663999201656,adequate,53.60401928600703,True
+72,male,"('any of the above', 0.4227886056971514)",17.993050543535684,moderate,1,['CBT'],9.421267752709523,8.57178279082616,adequate,47.639408170871405,True
+61,female,"('checking', 0.23088455772113942)",20.489023520478582,moderate,2,"['SSRI', 'switch_different_SSRI']",,-19.463728908922718,dropout,,False
+51,male,"('ordering', 0.136431784107946)",23.001956266594,severe,1,['SSRI_plus_CBT'],5.146277707446682,17.855678559147318,adequate,77.62678248840652,True
+38,female,"('any of the above', 0.4227886056971514)",40.0,extreme,1,['SSRI_plus_CBT'],15.536738071577805,24.463261928422195,adequate,61.15815482105549,False
+59,male,"('any of the above', 0.4227886056971514)",25.908370158718785,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",26.388992941280236,-2.287520920960457,poor,-1.8550869067296756,False
+26,male,"('ordering', 0.136431784107946)",25.810511946465983,severe,1,['SSRI_plus_CBT'],0.0,25.810511946465983,adequate,100.0,True
+61,male,"('any of the above', 0.4227886056971514)",9.381338314665626,mild,1,['SSRI_plus_CBT'],0.4716881051978408,8.909650209467786,adequate,94.97205953589307,True
+48,female,"('any of the above', 0.4227886056971514)",7.409979853348415,mild,1,['SSRI'],4.360379953937837,3.0495998994105777,adequate,41.155306218984215,True
+33,female,"('moral', 0.06296851574212893)",24.600022192644236,severe,1,['SSRI_plus_CBT'],0.0,24.600022192644236,adequate,100.0,True
+24,male,"('ordering', 0.136431784107946)",21.51067791227868,moderate,1,['SSRI'],,-20.0,dropout,,False
+20,male,"('ordering', 0.136431784107946)",16.496572025678066,moderate,3,"['CBT', 'switch_different_SSRI', 'switch_different_SRI']",14.830870778454026,0.8196434877730638,poor,10.097256839974149,False
+90,female,"('any of the above', 0.4227886056971514)",17.75144254889245,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",,-15.445576616460915,dropout,,False
+24,female,"('any of the above', 0.4227886056971514)",30.941062797950934,severe,1,['SSRI_plus_CBT'],14.08209883542578,16.858963962525152,adequate,54.487346063761045,False
+22,female,"('any of the above', 0.4227886056971514)",28.746898024709253,severe,1,['SSRI_plus_CBT'],4.301925165706552,24.4449728590027,adequate,85.03516740481406,True
+25,female,"('ordering', 0.136431784107946)",17.111505216583385,moderate,1,['CBT'],3.4539249562292764,13.65758026035411,adequate,79.81518918112505,True
+45,female,"('any of the above', 0.4227886056971514)",14.245803221819875,mild,2,"['SSRI', 'switch_different_SSRI']",,-19.79176292380454,dropout,,False
+61,female,"('checking', 0.23088455772113942)",17.493619614113666,moderate,1,['CBT'],,-20.0,dropout,,False
+34,female,"('any of the above', 0.4227886056971514)",14.63167077413509,mild,2,"['SSRI', 'add_CBT_if_not_provided']",2.155239538433073,24.995282986348947,adequate,85.27003804484882,True
+36,female,"('any of the above', 0.4227886056971514)",25.906961189075687,severe,1,['SSRI_plus_CBT'],1.1030252667777827,24.803935922297903,adequate,95.7423595197923,True
+23,female,"('any of the above', 0.4227886056971514)",29.931973145503754,severe,2,"['SSRI_plus_CBT', 'switch_different_SSRI']",,-17.02142069237945,dropout,,False
+39,male,"('ordering', 0.136431784107946)",16.696589252220996,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",,-16.930362822632976,dropout,,False
+29,female,"('any of the above', 0.4227886056971514)",0.3543401603306423,subclinical,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_SRI']",0.6075668643313585,19.606305434368917,poor,-71.46429683963144,True
+40,female,"('any of the above', 0.4227886056971514)",7.4988881429161145,mild,1,['CBT'],,-20.0,dropout,,False
+25,female,"('any of the above', 0.4227886056971514)",19.966096679825522,moderate,1,['CBT'],0.0,19.966096679825522,adequate,100.0,True
+34,female,"('sexual_religious', 0.03448275862068965)",28.540070821317936,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+52,female,"('any of the above', 0.4227886056971514)",36.605318792552545,extreme,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_clomipramine']",23.597435888918966,10.599803684365675,adequate,35.535499574122184,False
+51,female,"('any of the above', 0.4227886056971514)",22.004576572170134,moderate,1,['SSRI'],,-20.0,dropout,,False
+36,male,"('any of the above', 0.4227886056971514)",24.01177374474352,severe,2,"['SSRI_plus_CBT', 'switch_different_SSRI']",,-14.926409545659592,dropout,,False
+25,female,"('contamination', 0.043478260869565216)",15.92522428297406,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",11.167606498722819,25.954626427638047,moderate,29.874730174680774,True
+46,female,"('sexual_religious', 0.03448275862068965)",18.611405926079172,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",8.206054373731028,16.376150282086115,adequate,55.908465989491305,True
+59,female,"('ordering', 0.136431784107946)",18.573348325257836,moderate,1,['SSRI'],,-20.0,dropout,,False
+58,female,"('any of the above', 0.4227886056971514)",26.863869329589303,severe,2,"['SSRI_plus_CBT', 'switch_different_SSRI']",,-14.38206395597923,dropout,,False
+55,female,"('any of the above', 0.4227886056971514)",12.841479141189595,mild,1,['SSRI_plus_CBT'],2.3097227554061868,10.531756385783408,adequate,82.01357701857216,True
+53,female,"('illness', 0.026986506746626684)",14.68326592620801,mild,1,['CBT'],3.9548748419057325,10.728391084302277,adequate,73.06542793829868,True
+73,female,"('checking', 0.23088455772113942)",16.028882362345612,moderate,1,['SSRI'],,-20.0,dropout,,False
+47,male,"('any of the above', 0.4227886056971514)",24.19593334432079,severe,1,['SSRI_plus_CBT'],0.5714806965769846,23.624452647743805,adequate,97.6381126181639,True
+79,male,"('any of the above', 0.4227886056971514)",32.19223568311478,extreme,1,['SSRI_plus_CBT'],15.256067307771673,16.936168375343108,adequate,52.60948180814399,False
+50,female,"('any of the above', 0.4227886056971514)",31.837508205220086,extreme,1,['SSRI_plus_CBT'],14.194800828400851,17.642707376819235,adequate,55.41484987800186,False
+40,male,"('any of the above', 0.4227886056971514)",24.82539246343047,severe,1,['SSRI_plus_CBT'],0.10473529863813051,24.720657164792343,adequate,99.57811221396636,True
+44,female,"('checking', 0.23088455772113942)",20.64297418154842,moderate,1,['SSRI_plus_CBT'],10.731305999806784,9.911668181741637,adequate,48.014729343609375,True
+32,male,"('harming', 0.02548725637181409)",31.380548351812593,extreme,1,['SSRI_plus_CBT'],10.745986253920897,20.634562097891695,adequate,65.75590033212345,True
+32,female,"('checking', 0.23088455772113942)",17.082339778288954,moderate,1,['SSRI'],,-20.0,dropout,,False
+22,female,"('any of the above', 0.4227886056971514)",12.277219867147565,mild,1,['CBT'],,-20.0,dropout,,False
+28,female,"('ordering', 0.136431784107946)",19.910379456342877,moderate,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+19,female,"('sexual_religious', 0.03448275862068965)",18.979240617117192,moderate,3,"['CBT', 'augment_antipsychotic', 'augment_glutamate_modulator']",3.978574898003299,30.418628081428764,adequate,79.03722821020004,True
+24,female,"('checking', 0.23088455772113942)",14.628374836811423,mild,2,"['SSRI', 'switch_different_SSRI']",,-16.692297974738143,dropout,,False
+86,female,"('any of the above', 0.4227886056971514)",24.37952440230324,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+52,male,"('ordering', 0.136431784107946)",35.773170736730535,extreme,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_SRI']",20.10442859800207,13.888732818337164,adequate,43.80026096663664,False
+88,female,"('ordering', 0.136431784107946)",30.053675209119767,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+73,male,"('illness', 0.026986506746626684)",16.19180288307451,moderate,1,['SSRI_plus_CBT'],7.106033651593603,9.085769231480906,adequate,56.11338834280384,True
+48,male,"('any of the above', 0.4227886056971514)",7.445588564232195,mild,1,['SSRI_plus_CBT'],2.6105190555723023,4.835069508659893,adequate,64.93871460863477,True
+42,female,"('moral', 0.06296851574212893)",23.231607343531692,severe,2,"['SSRI_plus_CBT', 'augment_antipsychotic']",9.129253116708195,20.53577124343803,adequate,60.703308291537454,True
+42,male,"('any of the above', 0.4227886056971514)",26.204810546496816,severe,1,['SSRI_plus_CBT'],12.01542291349524,14.189387633001576,adequate,54.14802601920922,False
+56,male,"('any of the above', 0.4227886056971514)",30.753294846895283,severe,1,['SSRI_plus_CBT'],6.712146887670301,24.041147959224983,adequate,78.17421866149107,True
+71,female,"('any of the above', 0.4227886056971514)",23.330256572544222,severe,1,['SSRI_plus_CBT'],10.714370605657136,12.615885966887086,adequate,54.07521313646356,True
+34,male,"('checking', 0.23088455772113942)",27.321405811505286,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+31,male,"('checking', 0.23088455772113942)",4.38785786005754,subclinical,1,['CBT'],1.2151550088717538,3.1727028511857864,adequate,72.30641812868981,True
+29,female,"('moral', 0.06296851574212893)",26.49351054359991,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_glutamate_modulator']",,-11.87723958002168,dropout,,False
+30,male,"('ordering', 0.136431784107946)",18.183709986826987,moderate,1,['SSRI'],,-20.0,dropout,,False
+24,female,"('contamination', 0.043478260869565216)",14.112232480706178,mild,1,['SSRI'],,-20.0,dropout,,False
+29,male,"('checking', 0.23088455772113942)",22.574288723725328,moderate,3,"['CBT', 'switch_different_SSRI', 'switch_different_SRI']",15.530666720919283,10.103952695628754,moderate,31.201966489439272,False
+48,male,"('checking', 0.23088455772113942)",31.612418807577463,extreme,1,['SSRI_plus_CBT'],10.961943149630644,20.65047565794682,adequate,65.32393419068877,True
+28,female,"('checking', 0.23088455772113942)",25.722365229661506,severe,1,['SSRI_plus_CBT'],2.163656499224737,23.55870873043677,adequate,91.58842322661006,True
+47,female,"('checking', 0.23088455772113942)",24.651818099498197,severe,1,['SSRI_plus_CBT'],15.143263228274343,9.508554871223854,adequate,38.57141421718266,False
+46,male,"('checking', 0.23088455772113942)",9.245743514529034,mild,1,['SSRI'],3.034920513278617,6.210823001250416,adequate,67.17494370777803,True
+88,male,"('any of the above', 0.4227886056971514)",18.098037085643902,moderate,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_glutamate_modulator']",18.033572409261918,0.36912354193832897,poor,0.35619706201795925,False
+85,female,"('contamination', 0.043478260869565216)",19.37470782632646,moderate,1,['SSRI_plus_CBT'],0.8836599374866724,18.491047888839788,adequate,95.4391057382246,True
+20,male,"('any of the above', 0.4227886056971514)",12.79902965424312,mild,1,['SSRI'],,-20.0,dropout,,False
+85,female,"('any of the above', 0.4227886056971514)",19.19478341761462,moderate,1,['CBT'],9.809079141377103,9.385704276237517,adequate,48.89716165082888,True
+59,female,"('any of the above', 0.4227886056971514)",17.14683961047671,moderate,1,['SSRI'],,-20.0,dropout,,False
+45,male,"('checking', 0.23088455772113942)",23.403952466849372,severe,1,['SSRI_plus_CBT'],14.288075836862301,9.11587662998707,adequate,38.95015870887318,False
+67,male,"('ordering', 0.136431784107946)",6.6649541970856845,subclinical,1,['SSRI'],0.12049060907536313,6.544463588010322,adequate,98.19217648745361,True
+54,female,"('any of the above', 0.4227886056971514)",36.64868810336816,extreme,1,['SSRI_plus_CBT'],22.92880194987599,13.719886153492169,adequate,37.436227225364874,False
+29,female,"('moral', 0.06296851574212893)",13.217545074609765,mild,2,"['SSRI', 'switch_different_SSRI']",5.761757945621324,16.677777649371397,adequate,56.408259528546125,True
+41,male,"('any of the above', 0.4227886056971514)",15.92182888953675,moderate,1,['SSRI_plus_CBT'],0.0,15.92182888953675,adequate,100.0,True
+30,male,"('any of the above', 0.4227886056971514)",19.160305828734106,moderate,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+27,male,"('illness', 0.026986506746626684)",3.4751142499302965,subclinical,1,['SSRI'],,-20.0,dropout,,False
+38,male,"('any of the above', 0.4227886056971514)",27.957152467500848,severe,1,['SSRI_plus_CBT'],16.317850219334876,11.639302248165972,adequate,41.63264574851186,False
+29,female,"('any of the above', 0.4227886056971514)",11.309264711133785,mild,1,['SSRI'],,-20.0,dropout,,False
+51,female,"('moral', 0.06296851574212893)",24.50558803164847,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_SRI']",,-19.224991127237647,dropout,,False
+39,female,"('ordering', 0.136431784107946)",21.94923199240573,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",6.26933532531614,24.17413207403521,adequate,71.43710847156163,True
+35,female,"('ordering', 0.136431784107946)",27.000755411485386,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+31,male,"('illness', 0.026986506746626684)",15.995489827288438,moderate,1,['SSRI'],10.22921968146807,5.766270145820368,adequate,36.049350211101775,True
+78,female,"('any of the above', 0.4227886056971514)",25.59733423060514,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_clomipramine']",19.261243294730466,3.498057963315876,poor,24.752932781176106,False
+30,male,"('any of the above', 0.4227886056971514)",17.71029772115154,moderate,1,['SSRI'],,-20.0,dropout,,False
+43,female,"('ordering', 0.136431784107946)",14.479537100507121,mild,1,['SSRI'],7.147615147267947,7.331921953239174,adequate,50.63643887470951,True
+49,female,"('any of the above', 0.4227886056971514)",21.012708543391916,moderate,3,"['SSRI', 'add_CBT_if_not_provided', 'switch_different_augmenting_antipsychotic']",12.818089966082304,7.008913926143503,adequate,38.99839261743655,False
+40,female,"('any of the above', 0.4227886056971514)",10.034639210750694,mild,1,['SSRI'],6.166949325415004,3.8676898853356896,adequate,38.54338760074212,True
+22,male,"('checking', 0.23088455772113942)",11.955834699932293,mild,1,['CBT'],0.3968386658488053,11.558996034083487,adequate,96.68079497744266,True
+19,female,"('checking', 0.23088455772113942)",22.916080640118313,moderate,1,['CBT'],8.598446104077997,14.317634536040316,adequate,62.478548408382615,True
+24,female,"('any of the above', 0.4227886056971514)",35.77166260697597,extreme,1,['SSRI_plus_CBT'],20.810318722125885,14.961343884850088,adequate,41.824569490187514,False
+21,female,"('moral', 0.06296851574212893)",13.349980109891554,mild,1,['CBT'],,-20.0,dropout,,False
+57,male,"('harming', 0.02548725637181409)",1.1339333359632997,subclinical,1,['CBT'],0.49963710112595733,0.6342962348373424,adequate,55.93770063197716,True
+27,female,"('checking', 0.23088455772113942)",9.370442278183729,mild,1,['SSRI'],6.055310349208709,3.3151319289750205,adequate,35.37860679952443,True
+37,female,"('any of the above', 0.4227886056971514)",11.370283318343334,mild,1,['CBT'],0.0,11.370283318343334,adequate,100.0,True
+19,female,"('checking', 0.23088455772113942)",38.27925267329646,extreme,1,['SSRI_plus_CBT'],24.582958806696553,13.696293866599909,adequate,35.77994059469823,False
+23,male,"('any of the above', 0.4227886056971514)",4.365652309881199,subclinical,1,['SSRI'],0.0,4.365652309881199,adequate,100.0,True
+26,female,"('ordering', 0.136431784107946)",8.753654971535745,mild,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",7.267526201026716,20.311640274254913,poor,16.977237226523926,True
+33,male,"('checking', 0.23088455772113942)",9.256191870427894,mild,1,['SSRI'],5.995343403105011,3.2608484673228837,adequate,35.22883398453301,True
+19,female,"('moral', 0.06296851574212893)",13.792224859107414,mild,1,['CBT'],3.6888840373964538,10.10334082171096,adequate,73.25388706260415,True
+41,male,"('checking', 0.23088455772113942)",27.57284021283963,severe,1,['SSRI_plus_CBT'],11.168268732293964,16.404571480545666,adequate,59.49539965384732,True
+58,male,"('checking', 0.23088455772113942)",23.779759678674782,severe,1,['SSRI_plus_CBT'],0.11049053869946868,23.669269139975313,adequate,99.5353588926361,True
+26,female,"('sexual_religious', 0.03448275862068965)",23.434876263469743,severe,1,['SSRI_plus_CBT'],0.12663489109611348,23.30824137237363,adequate,99.45963063908508,True
+36,male,"('any of the above', 0.4227886056971514)",16.065903187595225,moderate,2,"['SSRI', 'switch_different_SSRI']",,-19.075529852891542,dropout,,False
+66,female,"('any of the above', 0.4227886056971514)",22.763638564900276,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",0.0,33.17146165096882,adequate,100.0,True
+18,male,"('any of the above', 0.4227886056971514)",13.135970925550456,mild,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",7.794646158881951,22.87652796075764,adequate,40.661819342788164,True
+20,female,"('checking', 0.23088455772113942)",23.39369505669335,severe,1,['SSRI_plus_CBT'],0.4339674224650475,22.9597276342283,adequate,98.1449385340223,True
+43,female,"('ordering', 0.136431784107946)",18.79033804375857,moderate,2,"['SSRI', 'switch_different_SSRI']",,-17.696429735232925,dropout,,False
+23,female,"('any of the above', 0.4227886056971514)",24.247465156191605,severe,1,['SSRI_plus_CBT'],0.2869174286723232,23.960547727519284,adequate,98.81671165697476,True
+50,female,"('any of the above', 0.4227886056971514)",19.288774234357376,moderate,1,['SSRI'],,-20.0,dropout,,False
+53,male,"('any of the above', 0.4227886056971514)",19.352483321770297,moderate,3,"['CBT', 'augment_antipsychotic', 'augment_glutamate_modulator']",7.416844834423252,27.6226637557455,adequate,61.67497105614462,True
+78,female,"('illness', 0.026986506746626684)",29.869498521298173,severe,1,['SSRI_plus_CBT'],18.338670318892326,11.530828202405846,adequate,38.604023412659224,False
+46,male,"('any of the above', 0.4227886056971514)",21.508806640497742,moderate,1,['SSRI_plus_CBT'],4.621677031231848,16.887129609265894,adequate,78.51262922913655,True
+20,female,"('ordering', 0.136431784107946)",24.867650811692105,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+49,female,"('ordering', 0.136431784107946)",31.585552553781753,extreme,2,"['SSRI_plus_CBT', 'switch_different_SSRI']",,-15.733007863952672,dropout,,False
+33,female,"('ordering', 0.136431784107946)",34.66202737282735,extreme,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_clomipramine']",,-9.964147558468355,dropout,,False
+22,female,"('sexual_religious', 0.03448275862068965)",0.0,subclinical,3,"['CBT', 'switch_different_SSRI', 'augment_glutamate_modulator']",0.6150278504913047,18.0,poor,0.0,True
+19,female,"('ordering', 0.136431784107946)",24.91219998696499,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_glutamate_modulator']",,-12.282234958355067,dropout,,False
+18,female,"('any of the above', 0.4227886056971514)",19.5179216643236,moderate,2,"['CBT', 'switch_different_SSRI']",9.753753108578206,19.63327116781415,adequate,50.026681752663826,True
+32,female,"('any of the above', 0.4227886056971514)",15.183551798868182,moderate,2,"['SSRI', 'switch_different_SSRI']",7.094260259776323,17.04730677135933,adequate,53.276674958851544,True
+21,male,"('moral', 0.06296851574212893)",30.343476826733173,severe,1,['SSRI_plus_CBT'],12.288316165111278,18.055160661621898,adequate,59.502609950468695,False
+49,male,"('checking', 0.23088455772113942)",30.80366726940732,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+41,male,"('moral', 0.06296851574212893)",14.233124436918917,mild,1,['SSRI_plus_CBT'],7.371941662084755,6.8611827748341625,adequate,48.2057386994884,True
+26,female,"('ordering', 0.136431784107946)",12.864119495491792,mild,1,['CBT'],6.775524080895208,6.088595414596584,adequate,47.33005952510253,True
+52,male,"('ordering', 0.136431784107946)",28.053857075882394,severe,1,['SSRI_plus_CBT'],9.348755991926579,18.705101083955817,adequate,66.67568396516997,True
+46,female,"('any of the above', 0.4227886056971514)",23.799420371611614,severe,1,['SSRI_plus_CBT'],4.890229715645275,18.909190655966338,adequate,79.4523158997669,True
+55,female,"('moral', 0.06296851574212893)",9.49709954279442,mild,2,"['SSRI', 'switch_different_SSRI']",3.8222600075964666,14.25181222239026,adequate,59.753396388306065,True
+24,male,"('ordering', 0.136431784107946)",29.798074137447273,severe,1,['SSRI_plus_CBT'],5.694854524321326,24.103219613125948,adequate,80.8885148145712,True
+36,male,"('any of the above', 0.4227886056971514)",26.43297340281847,severe,1,['SSRI_plus_CBT'],1.7298911545198354,24.703082248298635,adequate,93.45555595219045,True
+31,female,"('checking', 0.23088455772113942)",22.781614165841635,moderate,1,['SSRI'],,-20.0,dropout,,False
+32,female,"('sexual_religious', 0.03448275862068965)",16.69672821496387,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",,-17.893146785239836,dropout,,False
+18,female,"('ordering', 0.136431784107946)",9.97589481516933,mild,1,['CBT'],,-20.0,dropout,,False
+54,female,"('contamination', 0.043478260869565216)",9.394299753813227,mild,1,['CBT'],3.430728598514908,5.963571155298319,adequate,63.48074163673194,True
+42,male,"('any of the above', 0.4227886056971514)",34.0271029496912,extreme,1,['SSRI_plus_CBT'],0.7430368542566338,33.28406609543456,adequate,97.8163381838436,True
+26,female,"('ordering', 0.136431784107946)",19.244035551694637,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",,-14.515328932942928,dropout,,False
+36,female,"('any of the above', 0.4227886056971514)",12.909786575687544,mild,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",,-6.610598425311991,dropout,,False
+33,female,"('any of the above', 0.4227886056971514)",37.576630043745745,extreme,1,['SSRI_plus_CBT'],24.03450349744293,13.542126546302814,adequate,36.038693545795404,False
+87,female,"('illness', 0.026986506746626684)",29.418305853291788,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_SRI']",,-11.608462788169295,dropout,,False
+79,female,"('any of the above', 0.4227886056971514)",4.581092416586297,subclinical,1,['SSRI'],0.6927160938442134,3.888376322742084,adequate,84.87880114934669,True
+23,male,"('sexual_religious', 0.03448275862068965)",15.724550539873652,moderate,3,"['CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",9.45548750476135,23.15300748026236,adequate,39.86799507696882,True
+89,female,"('any of the above', 0.4227886056971514)",13.075223679130229,mild,1,['CBT'],1.0329639471528058,12.042259731977422,adequate,92.09983727619473,True
+22,female,"('any of the above', 0.4227886056971514)",18.622460249196752,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",0.09990554390240976,29.10921725770604,adequate,99.46352123959176,True
+48,female,"('moral', 0.06296851574212893)",21.486077521590463,moderate,1,['CBT'],6.503895388768221,14.982182132822242,adequate,69.72972203868888,True
+21,male,"('ordering', 0.136431784107946)",30.566239080628186,severe,1,['SSRI_plus_CBT'],13.672559661855612,16.893679418772575,adequate,55.26908094322667,False
+90,male,"('any of the above', 0.4227886056971514)",22.320333837338808,moderate,1,['SSRI'],,-20.0,dropout,,False
+39,female,"('any of the above', 0.4227886056971514)",3.897752246986834,subclinical,1,['SSRI'],0.11095609606804374,3.7867961509187906,adequate,97.15333122689319,True
+25,female,"('any of the above', 0.4227886056971514)",11.329884092144502,mild,1,['SSRI_plus_CBT'],4.474355554408739,6.855528537735762,adequate,60.50837309526402,True
+43,male,"('any of the above', 0.4227886056971514)",26.93182330882335,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",14.455652179761394,9.668573522064857,adequate,46.3250147826959,False
+45,female,"('any of the above', 0.4227886056971514)",11.727096720581466,mild,1,['SSRI_plus_CBT'],0.1523155135766242,11.574781207004841,adequate,98.70116604982626,True
+18,male,"('ordering', 0.136431784107946)",9.021862673834047,mild,1,['CBT'],0.0,9.021862673834047,adequate,100.0,True
+26,male,"('checking', 0.23088455772113942)",16.49360615994739,moderate,1,['SSRI'],,-20.0,dropout,,False
+25,female,"('any of the above', 0.4227886056971514)",37.54296194557827,extreme,1,['SSRI_plus_CBT'],19.114313421448614,18.428648524129656,adequate,49.08682631605774,False
+66,female,"('any of the above', 0.4227886056971514)",32.50181188947658,extreme,2,"['SSRI_plus_CBT', 'switch_different_SSRI']",,-13.260739868179467,dropout,,False
+43,male,"('any of the above', 0.4227886056971514)",17.80878534110943,moderate,1,['SSRI_plus_CBT'],8.520930114901354,9.287855226208077,adequate,52.15322127988249,True
+45,male,"('any of the above', 0.4227886056971514)",30.882458369643096,severe,1,['SSRI_plus_CBT'],11.110159817151736,19.77229855249136,adequate,64.02436721788696,True
+40,female,"('any of the above', 0.4227886056971514)",21.211471448517223,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",10.38796262125394,18.518461722361536,adequate,51.02667607729728,True
+19,female,"('any of the above', 0.4227886056971514)",27.263981648938664,severe,1,['SSRI_plus_CBT'],13.780187980399754,13.48379366853891,adequate,49.45643612206513,False
+60,male,"('any of the above', 0.4227886056971514)",16.678012989049396,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",4.466115234577956,30.072518100744503,adequate,73.22153881574287,True
+59,male,"('checking', 0.23088455772113942)",13.019868824667087,mild,1,['CBT'],2.0417366361545537,10.978132188512534,adequate,84.31830102399853,True
+20,female,"('contamination', 0.043478260869565216)",23.103264285078208,severe,1,['SSRI_plus_CBT'],12.966719374080405,10.136544910997802,adequate,43.874946786393,False
+29,female,"('ordering', 0.136431784107946)",9.105333284345004,mild,1,['SSRI'],3.6890427343234555,5.416290550021548,adequate,59.484813799555184,True
+22,female,"('other_oc', 0.01649175412293853)",15.233710394066163,moderate,1,['SSRI_plus_CBT'],0.6086388298739945,14.625071564192169,adequate,96.00465799775823,True
+51,female,"('checking', 0.23088455772113942)",7.505028870696184,mild,1,['CBT'],0.0,7.505028870696184,adequate,100.0,True
+48,male,"('checking', 0.23088455772113942)",16.151603798281183,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",2.7233479632948425,24.056730725090908,adequate,83.13883873510657,True
+22,female,"('checking', 0.23088455772113942)",24.57682593713489,severe,1,['SSRI_plus_CBT'],12.618853561423123,11.957972375711766,adequate,48.65547897152825,False
+19,female,"('any of the above', 0.4227886056971514)",27.47776068999866,severe,1,['SSRI_plus_CBT'],0.0,27.47776068999866,adequate,100.0,True
+80,male,"('checking', 0.23088455772113942)",2.009575813482097,subclinical,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+37,female,"('any of the above', 0.4227886056971514)",12.342450711878246,mild,2,"['SSRI', 'add_CBT_if_not_provided']",0.5693594461724379,22.303585149829683,adequate,95.38698221719862,True
+47,female,"('ordering', 0.136431784107946)",39.029622771334196,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+89,male,"('checking', 0.23088455772113942)",20.981059332502628,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",,-13.400073490529863,dropout,,False
+32,female,"('any of the above', 0.4227886056971514)",14.80561697986869,mild,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",8.561599735261346,25.728778247522126,adequate,42.173299857056826,True
+25,female,"('any of the above', 0.4227886056971514)",40.0,extreme,1,['SSRI_plus_CBT'],16.71072361727789,23.28927638272211,adequate,58.22319095680528,False
+57,female,"('any of the above', 0.4227886056971514)",22.192079999607827,moderate,2,"['SSRI', 'switch_different_SSRI']",,-18.226007850598513,dropout,,False
+48,female,"('any of the above', 0.4227886056971514)",18.104661386469743,moderate,2,"['CBT', 'switch_different_SSRI']",,-18.40193987736836,dropout,,False
+38,male,"('any of the above', 0.4227886056971514)",21.1591560094612,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",8.67722398717461,21.772764628173043,adequate,58.99068949964432,True
+23,female,"('any of the above', 0.4227886056971514)",14.636954363406568,mild,1,['SSRI_plus_CBT'],6.8599462491611405,7.777008114245428,adequate,53.13269359975942,True
+54,female,"('ordering', 0.136431784107946)",17.599272033052447,moderate,1,['SSRI'],,-20.0,dropout,,False
+26,female,"('illness', 0.026986506746626684)",21.369948459222243,moderate,1,['SSRI_plus_CBT'],0.06929406054888966,21.300654398673352,adequate,99.67574062856951,True
+73,female,"('any of the above', 0.4227886056971514)",14.309383157952114,mild,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",,-5.902487035973492,dropout,,False
+79,male,"('any of the above', 0.4227886056971514)",24.755457156812433,severe,1,['SSRI_plus_CBT'],14.091523188708514,10.663933968103919,adequate,43.07710376970081,False
+20,male,"('any of the above', 0.4227886056971514)",14.219112118363672,mild,2,"['SSRI', 'add_CBT_if_not_provided']",1.330183086306214,23.08463159827935,adequate,90.64510445354523,True
+78,female,"('any of the above', 0.4227886056971514)",31.406535660876077,extreme,1,['SSRI_plus_CBT'],18.193140363251846,13.213395297624231,adequate,42.07211976609217,False
+56,male,"('any of the above', 0.4227886056971514)",26.635084241024362,severe,1,['SSRI_plus_CBT'],3.8420151555596727,22.79306908546469,adequate,85.57535947402015,True
+89,male,"('ordering', 0.136431784107946)",21.241702811665355,moderate,2,"['SSRI', 'switch_different_SSRI']",,-18.659076885485845,dropout,,False
+22,female,"('ordering', 0.136431784107946)",15.470774614022503,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",0.0,25.806170336796296,adequate,100.0,True
+43,male,"('any of the above', 0.4227886056971514)",31.956708520540364,extreme,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_SRI']",11.567358133070053,28.054117704044074,adequate,63.803036455913265,True
+52,female,"('any of the above', 0.4227886056971514)",11.095881986192335,mild,1,['SSRI'],,-20.0,dropout,,False
+29,male,"('any of the above', 0.4227886056971514)",16.64668426102857,moderate,1,['SSRI'],,-20.0,dropout,,False
+64,female,"('ordering', 0.136431784107946)",30.525835739933655,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+18,male,"('ordering', 0.136431784107946)",37.359697879925555,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+40,female,"('any of the above', 0.4227886056971514)",10.89611925847093,mild,1,['SSRI'],5.9225986688318555,4.973520589639075,adequate,45.64488027030843,True
+42,female,"('any of the above', 0.4227886056971514)",5.108236057063304,subclinical,1,['SSRI_plus_CBT'],0.0,5.108236057063304,adequate,100.0,True
+56,female,"('any of the above', 0.4227886056971514)",13.018780996202254,mild,1,['CBT'],6.0337182811371655,6.985062715065089,adequate,53.653738526692486,True
+57,male,"('any of the above', 0.4227886056971514)",25.619629252102364,severe,1,['SSRI_plus_CBT'],0.0,25.619629252102364,adequate,100.0,True
+47,male,"('any of the above', 0.4227886056971514)",20.516162239930225,moderate,3,"['CBT', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",18.71163855246265,2.647404488692459,poor,8.795620089002147,False
+18,female,"('sexual_religious', 0.03448275862068965)",12.682475366845365,mild,2,"['SSRI', 'switch_different_SSRI']",4.121611973192664,17.03613733527082,adequate,67.50151800832653,True
+23,male,"('illness', 0.026986506746626684)",22.391413156554417,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",,-13.20042904164734,dropout,,False
+33,female,"('checking', 0.23088455772113942)",25.75117979415203,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",5.674898206346292,27.518405260952818,adequate,77.96257005811037,True
+55,female,"('any of the above', 0.4227886056971514)",22.838276741820238,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",8.905578573867194,23.652351107644996,adequate,61.005908306734135,True
+50,female,"('checking', 0.23088455772113942)",26.888725811232103,severe,1,['SSRI_plus_CBT'],12.42224274147459,14.466483069757512,adequate,53.80129639209046,False
+41,female,"('any of the above', 0.4227886056971514)",13.984544133866208,mild,1,['CBT'],4.945114245360459,9.03942988850575,adequate,64.63871687182899,True
+24,female,"('any of the above', 0.4227886056971514)",24.569917528817264,severe,1,['SSRI_plus_CBT'],0.4667254675921039,24.103192061225162,adequate,98.1004190712293,True
+18,female,"('any of the above', 0.4227886056971514)",24.342083176589078,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+26,male,"('checking', 0.23088455772113942)",12.19744482592536,mild,3,"['CBT', 'switch_different_SSRI', 'augment_glutamate_modulator']",,-22.06808790202485,dropout,,False
+42,male,"('checking', 0.23088455772113942)",20.953106674314792,moderate,1,['CBT'],9.609205307520275,11.343901366794517,adequate,54.13947221821933,True
+51,female,"('ordering', 0.136431784107946)",16.30503659728386,moderate,1,['SSRI_plus_CBT'],0.0788960965985086,16.22614050068535,adequate,99.51612438201057,True
+49,female,"('contamination', 0.043478260869565216)",20.45436527402461,moderate,1,['SSRI'],,-20.0,dropout,,False
+24,male,"('harming', 0.02548725637181409)",0.0,subclinical,2,"['SSRI', 'switch_different_SSRI']",0.0,9.810907506160948,poor,0.0,True
+37,female,"('any of the above', 0.4227886056971514)",24.65967732259631,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+31,female,"('any of the above', 0.4227886056971514)",33.33962774124334,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+56,male,"('any of the above', 0.4227886056971514)",12.949752578479822,mild,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",4.07790910651248,27.07445710001449,adequate,68.50975274006981,True
+28,female,"('ordering', 0.136431784107946)",18.836626405139715,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",10.346665015459939,27.411712640020653,adequate,45.07156009296456,True
+55,female,"('any of the above', 0.4227886056971514)",24.136704202132798,severe,1,['SSRI_plus_CBT'],1.3331481094562831,22.803556092676516,adequate,94.47667710433109,True
+22,female,"('checking', 0.23088455772113942)",21.00472376407608,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",,-11.987369977656176,dropout,,False
+43,female,"('any of the above', 0.4227886056971514)",29.598435967203187,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_SRI']",13.468887071900056,13.47889012691367,adequate,54.494598678036986,False
+19,female,"('sexual_religious', 0.03448275862068965)",33.718927095098046,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+47,female,"('any of the above', 0.4227886056971514)",29.291477859615053,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+48,female,"('any of the above', 0.4227886056971514)",13.86417663640764,mild,2,"['SSRI', 'add_CBT_if_not_provided']",,-15.913735216901888,dropout,,False
+39,female,"('ordering', 0.136431784107946)",18.339760711143846,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",13.736661328053719,5.16757997426868,moderate,25.099015497476646,False
+44,female,"('sexual_religious', 0.03448275862068965)",16.547467143064644,moderate,1,['SSRI_plus_CBT'],0.13575387991766508,16.41171326314698,adequate,99.17960930972713,True
+53,female,"('checking', 0.23088455772113942)",17.2860580280954,moderate,2,"['SSRI', 'switch_different_SSRI']",,-17.004986231707562,dropout,,False
+28,female,"('sexual_religious', 0.03448275862068965)",7.932787767679505,mild,1,['CBT'],1.2619338767315347,6.670853890947971,adequate,84.09217649975432,True
+51,female,"('checking', 0.23088455772113942)",21.769635006026974,moderate,1,['CBT'],11.843817415166258,9.925817590860715,adequate,45.594781851476746,True
+29,male,"('other_oc', 0.01649175412293853)",6.457213986304998,subclinical,1,['SSRI'],3.4237968564571943,3.0334171298478037,adequate,46.97718143275613,True
+40,male,"('any of the above', 0.4227886056971514)",14.799859983168194,mild,1,['CBT'],6.063678628365789,8.736181354802405,adequate,59.02881084508921,True
+42,male,"('checking', 0.23088455772113942)",12.368991416075659,mild,3,"['CBT', 'switch_different_SSRI', 'augment_clomipramine']",,-23.059238040768435,dropout,,False
+43,female,"('any of the above', 0.4227886056971514)",11.111727024358443,mild,1,['SSRI_plus_CBT'],0.18474057889572446,10.926986445462719,adequate,98.33742695000744,True
+22,male,"('checking', 0.23088455772113942)",21.164638047432973,moderate,1,['SSRI_plus_CBT'],8.531060808838957,12.633577238594016,adequate,59.69191256793699,True
+20,male,"('ordering', 0.136431784107946)",18.573707026155944,moderate,2,"['SSRI', 'switch_different_SSRI']",,-18.14496005616901,dropout,,False
+26,female,"('other_oc', 0.01649175412293853)",23.04748845137153,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_SRI']",16.81398557533383,6.4272832597682665,moderate,27.04634341911017,False
+51,female,"('any of the above', 0.4227886056971514)",9.396507153882226,mild,3,"['CBT', 'switch_different_SSRI', 'augment_clomipramine']",3.5623873387215124,24.229440765008064,adequate,62.088175101854844,True
+26,female,"('any of the above', 0.4227886056971514)",12.92739071538765,mild,1,['SSRI'],0.0,12.92739071538765,adequate,100.0,True
+43,female,"('checking', 0.23088455772113942)",22.292265503578005,moderate,1,['SSRI_plus_CBT'],11.254018077633523,11.038247425944482,adequate,49.5160414457328,True
+48,female,"('any of the above', 0.4227886056971514)",26.90125503296726,severe,2,"['SSRI_plus_CBT', 'switch_different_SSRI']",,-24.567952364707732,dropout,,False
+18,female,"('ordering', 0.136431784107946)",22.056792492892452,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",11.3685023319424,6.993224984227881,adequate,48.45804377220409,True
+27,female,"('ordering', 0.136431784107946)",18.67138871747292,moderate,1,['CBT'],2.9485369987489736,15.722851718723945,adequate,84.20826086712181,True
+88,female,"('any of the above', 0.4227886056971514)",13.035887762740265,mild,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",9.234609293786331,22.52213157617814,moderate,29.160104306964897,True
+46,female,"('checking', 0.23088455772113942)",14.775152873434388,mild,1,['CBT'],,-20.0,dropout,,False
+33,female,"('any of the above', 0.4227886056971514)",30.741614062496478,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+43,female,"('harming', 0.02548725637181409)",40.0,extreme,1,['SSRI_plus_CBT'],19.27115994638044,20.72884005361956,adequate,51.822100134048895,False
+37,female,"('any of the above', 0.4227886056971514)",14.115287407270829,mild,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",6.922424083555586,29.075875577582096,adequate,50.95796575853054,True
+53,female,"('ordering', 0.136431784107946)",26.840480277973803,severe,1,['SSRI_plus_CBT'],11.166923613005023,15.67355666496878,adequate,58.39521686141743,True
+30,female,"('ordering', 0.136431784107946)",9.42411612306821,mild,1,['CBT'],0.13309373513678405,9.291022387931426,adequate,98.58773243666853,True
+23,female,"('checking', 0.23088455772113942)",25.72378077730357,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_glutamate_modulator']",,-16.225458615880093,dropout,,False
+24,female,"('sexual_religious', 0.03448275862068965)",24.028350067872562,severe,1,['SSRI_plus_CBT'],5.498399768213057,18.529950299659504,adequate,77.11703153698942,True
+18,female,"('checking', 0.23088455772113942)",23.80132752916143,severe,1,['SSRI_plus_CBT'],8.936516269659172,14.864811259502257,adequate,62.45370658964238,True
+42,male,"('ordering', 0.136431784107946)",29.845514944862508,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_glutamate_modulator']",,-9.142792270149116,dropout,,False
+43,male,"('sexual_religious', 0.03448275862068965)",7.509860527881202,mild,1,['CBT'],4.012247756401568,3.4976127714796332,adequate,46.57360490909721,True
+32,female,"('ordering', 0.136431784107946)",5.321851874970802,subclinical,1,['SSRI'],2.3332650875721943,2.988586787398608,adequate,56.15689533664453,True
+44,male,"('sexual_religious', 0.03448275862068965)",10.876012854237315,mild,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+25,female,"('ordering', 0.136431784107946)",25.44284997644426,severe,1,['SSRI_plus_CBT'],11.611285006083898,13.831564970360363,adequate,54.3632689858488,True
+56,male,"('any of the above', 0.4227886056971514)",16.710893030854837,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",5.065476261117127,28.592412071550896,adequate,69.68757892373388,True
+33,female,"('sexual_religious', 0.03448275862068965)",19.919645859699347,moderate,2,"['CBT', 'switch_different_SSRI']",,-18.657922951295337,dropout,,False
+31,female,"('ordering', 0.136431784107946)",20.030764507026515,moderate,1,['SSRI_plus_CBT'],7.118403421367933,12.912361085658581,adequate,64.46264734992569,True
+38,female,"('checking', 0.23088455772113942)",27.737666653448212,severe,1,['SSRI_plus_CBT'],0.0,27.737666653448212,adequate,100.0,True
+40,female,"('harming', 0.02548725637181409)",23.540988812073586,severe,1,['SSRI_plus_CBT'],1.3647988097423347,22.17619000233125,adequate,94.20245759157592,True
+65,female,"('any of the above', 0.4227886056971514)",20.99565703921015,moderate,2,"['SSRI', 'switch_different_SSRI']",,-16.60876445908123,dropout,,False
+19,female,"('checking', 0.23088455772113942)",30.741157406240212,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_SRI']",27.277747482825397,2.066215240932852,poor,11.266361502419459,False
+28,male,"('moral', 0.06296851574212893)",23.120949417764173,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_clomipramine']",9.24057082044712,30.862676145593554,adequate,60.03377433390581,True
+54,male,"('moral', 0.06296851574212893)",17.453751259768502,moderate,1,['CBT'],0.0,17.453751259768502,adequate,100.0,True
+79,female,"('any of the above', 0.4227886056971514)",30.09998132121653,severe,1,['SSRI_plus_CBT'],15.337961093728332,14.762020227488197,adequate,49.04328700391224,False
+38,male,"('any of the above', 0.4227886056971514)",6.764752353795095,subclinical,1,['SSRI'],2.779243404006067,3.985508949789028,adequate,58.91581452428362,True
+34,female,"('any of the above', 0.4227886056971514)",10.780821510120612,mild,1,['SSRI_plus_CBT'],1.70501414720703,9.075807362913583,adequate,84.18474746468598,True
+54,female,"('ordering', 0.136431784107946)",17.7332521773778,moderate,1,['SSRI'],,-20.0,dropout,,False
+19,female,"('checking', 0.23088455772113942)",24.457354926544646,severe,1,['SSRI_plus_CBT'],9.189870981755819,15.267483944788827,adequate,62.42491876428695,True
+54,female,"('any of the above', 0.4227886056971514)",6.173968818658264,subclinical,1,['SSRI_plus_CBT'],0.0,6.173968818658264,adequate,100.0,True
+57,male,"('moral', 0.06296851574212893)",29.2730156012345,severe,1,['SSRI_plus_CBT'],0.0,29.2730156012345,adequate,100.0,True
+38,female,"('any of the above', 0.4227886056971514)",28.654369574413934,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'switch_different_SRI']",15.876410112595568,13.201465393670919,adequate,44.59340635163743,False
+84,female,"('checking', 0.23088455772113942)",23.591692038634577,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+41,female,"('any of the above', 0.4227886056971514)",0.0,subclinical,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",1.3594114199613994,18.0,poor,0.0,True
+45,male,"('any of the above', 0.4227886056971514)",18.25136096617515,moderate,1,['SSRI'],11.816041100330526,6.4353198658446225,adequate,35.25939724588791,True
+33,female,"('checking', 0.23088455772113942)",9.151353163354011,mild,1,['SSRI_plus_CBT'],1.9614604471764263,7.189892716177585,adequate,78.56644353939957,True
+30,female,"('harming', 0.02548725637181409)",30.613209018190418,severe,1,['SSRI_plus_CBT'],12.474670702441106,18.13853831574931,adequate,59.250692421599325,False
+20,female,"('ordering', 0.136431784107946)",13.108185952213367,mild,1,['CBT'],0.0,13.108185952213367,adequate,100.0,True
+32,female,"('any of the above', 0.4227886056971514)",27.004561340277547,severe,1,['SSRI_plus_CBT'],11.394229127964683,15.610332212312864,adequate,57.806279522970485,True
+58,male,"('checking', 0.23088455772113942)",11.308122374214289,mild,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",,-7.968750321179273,dropout,,False
+28,male,"('any of the above', 0.4227886056971514)",25.069908106478437,severe,1,['SSRI_plus_CBT'],10.566619083803198,14.503289022675238,adequate,57.85138485979282,True
+61,male,"('ordering', 0.136431784107946)",40.0,extreme,1,['SSRI_plus_CBT'],13.314775278250707,26.685224721749293,adequate,66.71306180437323,False
+41,female,"('ordering', 0.136431784107946)",22.431584083644836,moderate,2,"['SSRI', 'switch_different_SSRI']",,-16.943863977745814,dropout,,False
+31,male,"('ordering', 0.136431784107946)",15.91087190161976,moderate,2,"['SSRI', 'switch_different_SSRI']",,-16.7719351451705,dropout,,False
+57,male,"('any of the above', 0.4227886056971514)",23.23878757135073,severe,1,['SSRI_plus_CBT'],2.226968636091668,21.01181893525906,adequate,90.417018834334,True
+47,male,"('harming', 0.02548725637181409)",20.58119915766424,moderate,2,"['SSRI', 'switch_different_SSRI']",,-16.861571733249665,dropout,,False
+38,female,"('checking', 0.23088455772113942)",28.63361369711279,severe,1,['SSRI_plus_CBT'],18.000690525565584,10.632923171547205,adequate,37.13440882461634,False
+26,male,"('moral', 0.06296851574212893)",19.425205226938047,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",6.7474148613088065,31.005903433444246,adequate,65.26464054057057,True
+25,male,"('checking', 0.23088455772113942)",19.52753135038955,moderate,1,['SSRI_plus_CBT'],1.7450443415476617,17.782487008841887,adequate,91.06367154026948,True
+59,male,"('any of the above', 0.4227886056971514)",16.128019440947877,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",8.793444694869947,23.579530422619207,adequate,45.47721915225359,True
+56,male,"('any of the above', 0.4227886056971514)",37.985138889519234,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+26,female,"('any of the above', 0.4227886056971514)",6.311945591371879,subclinical,1,['SSRI'],0.3046362963480508,6.007309295023829,adequate,95.17365458972787,True
+48,female,"('sexual_religious', 0.03448275862068965)",23.70200748605978,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+38,male,"('checking', 0.23088455772113942)",26.122387489327835,severe,1,['SSRI_plus_CBT'],5.932014203024127,20.190373286303707,adequate,77.29145467485458,True
+34,female,"('any of the above', 0.4227886056971514)",7.943854220472215,mild,2,"['CBT', 'switch_different_SSRI']",1.0195990649017626,16.169019665554714,adequate,87.16493232876631,True
+28,female,"('any of the above', 0.4227886056971514)",14.78245333581829,mild,2,"['SSRI', 'add_CBT_if_not_provided']",0.0,23.839884787282102,adequate,100.0,True
+78,female,"('any of the above', 0.4227886056971514)",22.2795689654458,moderate,3,"['CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",9.565462376916733,18.041120104779537,adequate,57.06621437895788,True
+40,female,"('any of the above', 0.4227886056971514)",17.791684894684312,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",0.26044226333355597,27.079056410837886,adequate,98.53615739669846,True
+41,female,"('checking', 0.23088455772113942)",15.733728407981,moderate,1,['SSRI'],,-20.0,dropout,,False
+57,female,"('checking', 0.23088455772113942)",17.465846525851948,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",0.7710538838949648,26.665981096137465,adequate,95.58536207933756,True
+50,female,"('checking', 0.23088455772113942)",22.225158597930136,moderate,1,['CBT'],,-20.0,dropout,,False
+57,male,"('ordering', 0.136431784107946)",10.379052641844543,mild,1,['SSRI'],6.075349158306834,4.303703483537709,adequate,41.465282353292544,True
+22,male,"('checking', 0.23088455772113942)",25.640482169700686,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",,-15.077406835761831,dropout,,False
+42,male,"('checking', 0.23088455772113942)",17.30812042000465,moderate,1,['CBT'],0.0,17.30812042000465,adequate,100.0,True
+37,female,"('contamination', 0.043478260869565216)",7.769737830772213,mild,1,['CBT'],2.2200187344232636,5.54971909634895,adequate,71.42736624097107,True
+19,female,"('checking', 0.23088455772113942)",29.655044216722168,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+70,female,"('contamination', 0.043478260869565216)",33.677931435601124,extreme,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_clomipramine']",25.408963367013268,7.35124191517659,poor,24.553075904913463,False
+50,male,"('any of the above', 0.4227886056971514)",12.869559430582745,mild,1,['SSRI'],,-20.0,dropout,,False
+19,male,"('moral', 0.06296851574212893)",24.653863633620116,severe,1,['SSRI_plus_CBT'],8.818460185509212,15.835403448110904,adequate,64.23092008392712,True
+58,male,"('moral', 0.06296851574212893)",22.30325438678727,moderate,1,['SSRI_plus_CBT'],6.761493203604664,15.541761183182604,adequate,69.68382691446922,True
+31,male,"('contamination', 0.043478260869565216)",21.529327673192384,moderate,1,['SSRI'],,-20.0,dropout,,False
+52,female,"('any of the above', 0.4227886056971514)",18.992963222839762,moderate,1,['SSRI'],,-20.0,dropout,,False
+43,male,"('checking', 0.23088455772113942)",10.76283118652478,mild,1,['SSRI_plus_CBT'],0.21187867865182275,10.550952507872957,adequate,98.03138528348286,True
+25,female,"('any of the above', 0.4227886056971514)",15.19305367261198,moderate,2,"['CBT', 'switch_different_SSRI']",,-27.350328828854593,dropout,,False
+34,female,"('any of the above', 0.4227886056971514)",23.026734422901626,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+41,female,"('harming', 0.02548725637181409)",19.453369795317432,moderate,2,"['SSRI', 'switch_different_SSRI']",,-16.5813448568888,dropout,,False
+25,female,"('ordering', 0.136431784107946)",10.029441535173055,mild,1,['SSRI'],5.8393638748941985,4.190077660278856,adequate,41.77777641540993,True
+35,male,"('checking', 0.23088455772113942)",23.049348092981017,severe,1,['SSRI_plus_CBT'],4.492584745506376,18.556763347474643,adequate,80.5088424740548,True
+64,female,"('harming', 0.02548725637181409)",22.63037422241559,moderate,1,['SSRI'],,-20.0,dropout,,False
+56,female,"('contamination', 0.043478260869565216)",19.458100324451788,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",11.450417309520073,4.36205338505529,adequate,41.153467611989626,True
+30,male,"('checking', 0.23088455772113942)",16.781382189257418,moderate,1,['SSRI'],,-20.0,dropout,,False
+31,female,"('checking', 0.23088455772113942)",27.3593269579483,severe,1,['SSRI_plus_CBT'],1.0907235861498341,26.268603371798466,adequate,96.01333911529953,True
+53,female,"('any of the above', 0.4227886056971514)",31.100329518512698,extreme,2,"['SSRI_plus_CBT', 'switch_different_SSRI']",,-16.308956861261134,dropout,,False
+18,female,"('ordering', 0.136431784107946)",20.620630859801068,moderate,2,"['CBT', 'switch_different_SSRI']",,-16.61130690289811,dropout,,False
+52,male,"('any of the above', 0.4227886056971514)",28.34043560426518,severe,1,['SSRI_plus_CBT'],11.412588112390047,16.927847491875134,adequate,59.730371573143806,True
+35,female,"('checking', 0.23088455772113942)",16.644761998265064,moderate,1,['CBT'],,-20.0,dropout,,False
+50,male,"('contamination', 0.043478260869565216)",30.490856879366692,severe,1,['SSRI_plus_CBT'],13.432618952089964,17.05823792727673,adequate,55.94541994921802,False
+22,male,"('any of the above', 0.4227886056971514)",24.62799223670161,severe,1,['SSRI_plus_CBT'],9.135599428250218,15.49239280845139,adequate,62.905626490185476,True
+24,female,"('ordering', 0.136431784107946)",32.8090808783061,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+48,female,"('contamination', 0.043478260869565216)",34.21610451531853,extreme,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'switch_different_SRI']",21.735568139287267,11.937236188878586,adequate,36.47562033382185,False
+24,male,"('checking', 0.23088455772113942)",28.65005981613647,severe,2,"['SSRI_plus_CBT', 'augment_antipsychotic']",,-12.255325049912763,dropout,,False
+49,female,"('any of the above', 0.4227886056971514)",10.027893038985695,mild,1,['CBT'],,-20.0,dropout,,False
+33,female,"('sexual_religious', 0.03448275862068965)",18.767851674762863,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",12.256518860898066,4.444097810304028,moderate,34.69407648090372,False
+30,female,"('any of the above', 0.4227886056971514)",23.271010392960815,severe,1,['SSRI_plus_CBT'],0.0,23.271010392960815,adequate,100.0,True
+42,male,"('any of the above', 0.4227886056971514)",11.378404335732267,mild,1,['CBT'],0.16386195151584043,11.214542384216426,adequate,98.55988637175376,True
+20,male,"('any of the above', 0.4227886056971514)",19.720819312288622,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",6.247504635302539,25.951390069944864,adequate,68.32025821863529,True
+21,female,"('ordering', 0.136431784107946)",34.20435691166126,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+27,female,"('any of the above', 0.4227886056971514)",36.57841224295664,extreme,1,['SSRI_plus_CBT'],10.662368385559352,25.916043857397284,adequate,70.8506527983252,True
+20,female,"('moral', 0.06296851574212893)",11.11811630895595,mild,2,"['SSRI', 'add_CBT_if_not_provided']",0.0,21.510587415016822,adequate,100.0,True
+41,female,"('any of the above', 0.4227886056971514)",16.08295204305236,moderate,1,['CBT'],2.9588510486234356,13.124100994428924,adequate,81.60256251027234,True
+59,female,"('any of the above', 0.4227886056971514)",6.408119143065828,subclinical,2,"['SSRI', 'add_CBT_if_not_provided']",0.16666168705732284,15.630711790301316,adequate,97.39921054311755,True
+39,male,"('any of the above', 0.4227886056971514)",29.557541530394506,severe,3,"['SSRI_plus_CBT', 'augment_antipsychotic', 'augment_glutamate_modulator']",,-13.179280220362976,dropout,,False
+89,female,"('any of the above', 0.4227886056971514)",28.021351852108996,severe,1,['SSRI_plus_CBT'],17.225876755331814,10.795475096777182,adequate,38.52588966354481,False
+57,female,"('checking', 0.23088455772113942)",23.711133317234538,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_glutamate_modulator']",,-12.518742555560848,dropout,,False
+36,male,"('contamination', 0.043478260869565216)",24.825226780828782,severe,1,['SSRI_plus_CBT'],12.928471603670967,11.896755177157814,adequate,47.92204027858087,False
+20,female,"('ordering', 0.136431784107946)",31.95738013129804,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+34,female,"('checking', 0.23088455772113942)",14.249658718230105,mild,1,['SSRI'],,-20.0,dropout,,False
+43,male,"('checking', 0.23088455772113942)",17.204827187664606,moderate,1,['SSRI_plus_CBT'],6.232128584033312,10.972698603631294,adequate,63.776860319169145,True
+23,male,"('moral', 0.06296851574212893)",31.752290384754485,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+38,female,"('checking', 0.23088455772113942)",16.73314692687492,moderate,2,"['CBT', 'augment_antipsychotic']",6.522979798677499,18.153693838983266,adequate,61.01761475481331,True
+23,female,"('any of the above', 0.4227886056971514)",23.900464372164716,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+18,male,"('moral', 0.06296851574212893)",11.204277940304802,mild,1,['SSRI'],4.171215996035102,7.033061944269701,adequate,62.77121990137253,True
+25,female,"('checking', 0.23088455772113942)",24.329351484343082,severe,1,['SSRI_plus_CBT'],0.0,24.329351484343082,adequate,100.0,True
+47,male,"('any of the above', 0.4227886056971514)",19.067136050551976,moderate,3,"['CBT', 'augment_antipsychotic', 'switch_different_augmenting_antipsychotic']",9.698916680868601,15.205608525750254,adequate,49.13280811992829,True
+82,male,"('any of the above', 0.4227886056971514)",33.2820972512862,extreme,1,['SSRI_plus_CBT'],19.267869213207184,14.014228038079018,adequate,42.10740667052594,False
+48,female,"('ordering', 0.136431784107946)",1.903506482386791,subclinical,1,['CBT'],1.197246923645228,0.7062595587415632,adequate,37.103081354153844,True
+28,female,"('any of the above', 0.4227886056971514)",19.721887276315332,moderate,1,['CBT'],,-20.0,dropout,,False
+59,female,"('ordering', 0.136431784107946)",36.68393225962534,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+29,male,"('any of the above', 0.4227886056971514)",21.092180237756644,moderate,3,"['CBT', 'augment_antipsychotic', 'augment_clomipramine']",13.831304053759599,16.29868898748886,moderate,34.42449335322629,False
+27,female,"('ordering', 0.136431784107946)",18.416839022242538,moderate,1,['CBT'],1.2090038294412704,17.20783519280127,adequate,93.4353347608614,True
+36,female,"('any of the above', 0.4227886056971514)",21.535771920757096,moderate,1,['CBT'],0.0,21.535771920757096,adequate,100.0,True
+27,male,"('checking', 0.23088455772113942)",19.784656693240876,moderate,1,['SSRI'],12.717423740678553,7.067232952562323,adequate,35.72077626687722,False
+86,male,"('harming', 0.02548725637181409)",30.768017583505532,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_glutamate_modulator']",16.819440524110142,10.389505475316973,adequate,45.334662922427285,False
+55,female,"('any of the above', 0.4227886056971514)",18.762956364764012,moderate,1,['SSRI'],,-20.0,dropout,,False
+42,male,"('ordering', 0.136431784107946)",15.018993873424966,moderate,1,['SSRI'],8.943303643956716,6.07569022946825,adequate,40.45337710816135,True
+44,female,"('any of the above', 0.4227886056971514)",17.416650699944704,moderate,1,['CBT'],,-20.0,dropout,,False
+43,male,"('checking', 0.23088455772113942)",16.39585584737912,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",,-4.555286965640409,dropout,,False
+28,female,"('any of the above', 0.4227886056971514)",26.473086474487243,severe,1,['SSRI_plus_CBT'],12.324145905223812,14.14894056926343,adequate,53.446509091031416,False
+27,male,"('harming', 0.02548725637181409)",29.039130206427863,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_clomipramine']",27.05371982670232,0.5573042425529664,poor,6.837017381760522,False
+59,female,"('any of the above', 0.4227886056971514)",17.665176734511547,moderate,2,"['SSRI', 'add_CBT_if_not_provided']",0.677359521686422,27.775842103068875,adequate,96.16556611990697,True
+21,male,"('any of the above', 0.4227886056971514)",13.74971280884072,mild,2,"['SSRI', 'add_CBT_if_not_provided']",5.664999892372644,19.930581624164837,adequate,58.799140235640465,True
+33,female,"('any of the above', 0.4227886056971514)",26.26027906133869,severe,1,['SSRI_plus_CBT'],2.3906301910856422,23.869648870253048,adequate,90.89640218406814,True
+19,male,"('any of the above', 0.4227886056971514)",18.211212940866112,moderate,2,"['SSRI', 'switch_different_SSRI']",9.427423774046787,17.25638175755487,adequate,48.232861783239215,True
+47,female,"('any of the above', 0.4227886056971514)",13.939544006234506,mild,1,['CBT'],,-20.0,dropout,,False
+21,female,"('any of the above', 0.4227886056971514)",24.18974449198205,severe,1,['SSRI_plus_CBT'],0.0,24.18974449198205,adequate,100.0,True
+39,male,"('any of the above', 0.4227886056971514)",25.343879088553347,severe,1,['SSRI_plus_CBT'],12.322610075608203,13.021269012945144,adequate,51.3783583304193,False
+34,male,"('moral', 0.06296851574212893)",17.178647606380547,moderate,2,"['SSRI', 'switch_different_SSRI']",6.568195340551438,19.541359425677236,adequate,61.76535259904943,True
+37,female,"('checking', 0.23088455772113942)",22.127234788727176,moderate,1,['CBT'],,-20.0,dropout,,False
+52,female,"('moral', 0.06296851574212893)",14.176329130709945,mild,1,['SSRI'],,-20.0,dropout,,False
+28,female,"('moral', 0.06296851574212893)",16.453910708962017,moderate,2,"['CBT', 'switch_different_SSRI']",,-23.782568440392456,dropout,,False
+38,female,"('any of the above', 0.4227886056971514)",35.61252025677745,extreme,1,['SSRI_plus_CBT'],20.237290745121726,15.375229511655725,adequate,43.17366308476765,False
+50,male,"('any of the above', 0.4227886056971514)",9.602030376365613,mild,1,['SSRI'],,-20.0,dropout,,False
+53,female,"('checking', 0.23088455772113942)",6.867640656435755,subclinical,1,['SSRI'],2.176161973056766,4.691478683378989,adequate,68.31281539144805,True
+33,female,"('checking', 0.23088455772113942)",33.10668119012441,extreme,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_clomipramine']",24.80618122301898,6.317689991722194,moderate,25.071978430690407,False
+25,male,"('any of the above', 0.4227886056971514)",26.2811099031118,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+35,male,"('any of the above', 0.4227886056971514)",22.874213542792514,moderate,1,['CBT'],2.175421833906817,20.698791708885697,adequate,90.48963222347692,True
+45,male,"('any of the above', 0.4227886056971514)",21.540452041743162,moderate,1,['CBT'],,-20.0,dropout,,False
+28,female,"('any of the above', 0.4227886056971514)",13.521500812415912,mild,2,"['SSRI', 'add_CBT_if_not_provided']",0.0,23.73567534955141,adequate,100.0,True
+35,female,"('contamination', 0.043478260869565216)",22.20414574921481,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_SRI']",9.681540788355255,24.103894420249745,adequate,56.39759845884809,True
+90,female,"('ordering', 0.136431784107946)",32.17321897996354,extreme,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+21,female,"('any of the above', 0.4227886056971514)",15.261131115359124,moderate,1,['SSRI'],,-20.0,dropout,,False
+20,female,"('checking', 0.23088455772113942)",19.500858138605096,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",4.644995379797656,33.439947161283996,adequate,76.18055909753973,True
+56,male,"('ordering', 0.136431784107946)",7.0073024302839855,mild,1,['CBT'],0.0,7.0073024302839855,adequate,100.0,True
+38,female,"('checking', 0.23088455772113942)",16.399788894241247,moderate,1,['CBT'],,-20.0,dropout,,False
+39,female,"('moral', 0.06296851574212893)",23.758146720052203,severe,3,"['SSRI_plus_CBT', 'switch_different_SSRI', 'augment_clomipramine']",15.447655883825071,7.359940926270452,moderate,34.979541687959035,False
+21,male,"('any of the above', 0.4227886056971514)",20.096462927752388,moderate,3,"['SSRI', 'switch_different_SSRI', 'switch_different_augmenting_antipsychotic']",12.9027254494926,3.212412375951809,adequate,35.7960378606005,False
+78,female,"('any of the above', 0.4227886056971514)",30.024649607375373,severe,1,['SSRI_plus_CBT'],15.58438874490267,14.440260862472703,adequate,48.09468570426061,False
+35,male,"('any of the above', 0.4227886056971514)",30.592004810840862,severe,1,['SSRI_plus_CBT'],13.467651327417267,17.124353483423597,adequate,55.97656508394394,False
+26,female,"('moral', 0.06296851574212893)",8.070706347771932,mild,1,['SSRI'],3.039818061234888,5.030888286537044,adequate,62.33516708145272,True
+20,male,"('any of the above', 0.4227886056971514)",18.86869615333189,moderate,1,['SSRI'],,-20.0,dropout,,False
+33,male,"('harming', 0.02548725637181409)",12.466613483889608,mild,1,['SSRI_plus_CBT'],0.0,12.466613483889608,adequate,100.0,True
+23,male,"('checking', 0.23088455772113942)",15.84261072248029,moderate,1,['CBT'],10.114856808386374,5.727753914093915,adequate,36.154103729673594,True
+68,male,"('ordering', 0.136431784107946)",15.474927953070063,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_glutamate_modulator']",12.933220664054367,24.271585325584027,poor,16.424679305285213,False
+47,female,"('any of the above', 0.4227886056971514)",17.492711248426165,moderate,3,"['SSRI', 'switch_different_SSRI', 'augment_clomipramine']",8.31096156880211,15.698259419778184,adequate,52.48900270076856,True
+45,female,"('any of the above', 0.4227886056971514)",3.532894802006231,subclinical,1,['SSRI'],0.011928237400157101,3.520966564606074,adequate,99.66236647087868,True
+31,male,"('any of the above', 0.4227886056971514)",29.459347458449948,severe,1,['SSRI_plus_CBT'],9.004438752631527,20.45490870581842,adequate,69.4343577523855,True
+45,female,"('moral', 0.06296851574212893)",12.001774069512532,mild,3,"['CBT', 'augment_antipsychotic', 'switch_different_SRI']",3.3611428712255984,24.830296234156954,adequate,71.99461636456121,True
+33,male,"('any of the above', 0.4227886056971514)",18.407916304993748,moderate,2,"['SSRI', 'switch_different_SSRI']",,-18.196672562896765,dropout,,False
+33,male,"('any of the above', 0.4227886056971514)",8.810141902859373,mild,2,"['SSRI', 'switch_different_SSRI']",5.07351990048014,13.017725294518284,adequate,42.41273345627378,True
+24,male,"('checking', 0.23088455772113942)",19.43751192987961,moderate,1,['CBT'],3.188299275787541,16.24921265409207,adequate,83.5971842111827,True
+28,female,"('checking', 0.23088455772113942)",24.915487513146733,severe,1,['SSRI_plus_CBT'],0.0,24.915487513146733,adequate,100.0,True
+47,female,"('any of the above', 0.4227886056971514)",18.49459797454803,moderate,1,['CBT'],0.0,18.49459797454803,adequate,100.0,True
+85,male,"('any of the above', 0.4227886056971514)",25.090277494915757,severe,1,['SSRI_plus_CBT'],,-20.0,dropout,,False
+25,female,"('checking', 0.23088455772113942)",34.50407217361127,extreme,1,['SSRI_plus_CBT'],9.386369614503097,25.117702559108174,adequate,72.79634250915521,True
+26,male,"('harming', 0.02548725637181409)",0.0,subclinical,2,"['SSRI', 'switch_different_SSRI']",0.744991419614082,7.74372773486215,poor,0.0,True

@@ -1,0 +1,17 @@
+{
+  "Age_Group": 5,
+  "Gender": 2,
+  "Ethnicity": 4,
+  "Duration": 4,
+  "YBOCS_Severity_Baseline": 5,
+  "Obsession_Type": 5,
+  "Compulsion_Type": 5,
+  "Depression": 2,
+  "Anxiety": 2,
+  "Family_History": 2,
+  "Treatment": 7,
+  "Adherence": 3,
+  "Side_Effects": 4,
+  "YBOCS_Severity_Week12": 5,
+  "Response": 4
+}
