@@ -1,0 +1,26 @@
+{
+    "Remission": {
+        "Remission": 0.048666666666666664,
+        "Partial Response": 0.3171111111111111,
+        "No Response": 0.3171111111111111,
+        "Dropout": 0.3171111111111111
+    },
+    "Partial Response": {
+        "Remission": 0.214,
+        "Partial Response": 0.358,
+        "No Response": 0.214,
+        "Dropout": 0.214
+    },
+    "No Response": {
+        "Remission": 0.20199999999999999,
+        "Partial Response": 0.20199999999999999,
+        "No Response": 0.394,
+        "Dropout": 0.20199999999999999
+    },
+    "Dropout": {
+        "Remission": 0.2668888888888889,
+        "Partial Response": 0.2668888888888889,
+        "No Response": 0.2668888888888889,
+        "Dropout": 0.19933333333333333
+    }
+}

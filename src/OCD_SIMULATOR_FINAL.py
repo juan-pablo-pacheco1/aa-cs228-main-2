@@ -14,7 +14,7 @@ CLINICIAN = {
     # checked
     # --------------------------------------------------------
     # Source:
-    # - https://www.nimh.nih.gov/health/statistics/obsessive-compulsive-disorder-ocd?utm_source=chatgpt.com
+    # - https://www.nimh.nih.gov/health/statistics/obsessive-compulsive-disorder-ocd
     # exact: figure 1
     "age_groups": [
     ((18, 29), 1.5/4.5),
@@ -119,10 +119,10 @@ CLINICIAN = {
 # APA ALGORITHM (SIMPLIFIED) checked!
 # ============================================================
 # Source: https://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/ocd-1410197738287.pdf
-# sOURCE:  https://med.stanford.edu/ocd/about/diagnosis.html?utm_source=chatgpt.com
+# sOURCE:  https://med.stanford.edu/ocd/about/diagnosis.html
 #  In out experience, patients experience a 25% decrease in a Y-BOCS score as mild to moderate improvement....In controlled treatment trials, a decrease of greater than or equal to 35% is widely accepted as indicating a clinically meaningful 
 # response and translates into a global improvement rating of much or very much improved
-# Source for remission: https://www.psychiatrist.com/jcp/response-versus-remission-obsessive-compulsive-disorder/?utm_source=chatgpt.com
+# Source for remission: https://www.psychiatrist.com/jcp/response-versus-remission-obsessive-compulsive-disorder
 # quote-- remission rates for YBOCS < = 12:
 
 APA_ALGORITHM = {

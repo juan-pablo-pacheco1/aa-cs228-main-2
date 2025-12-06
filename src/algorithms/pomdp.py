@@ -120,6 +120,16 @@ def simulate_step(pomdp: POMDP, s: Any, a: Any) -> Tuple[Any, float, Any]:
     # Sample next state
     T_probs = np.array([pomdp.T(s, a, s_prime) for s_prime in pomdp.S])
     T_probs = T_probs / T_probs.sum()
+    
+    # Ensure T_probs is valid by checking if the sum is zero
+    if T_probs.sum() == 0:
+        T_probs = np.ones(len(pomdp.S)) / len(pomdp.S)  # Assign uniform probabilities as fallback
+    
+    # Debugging: Check for NaN values in T_probs
+    if np.isnan(T_probs).any():
+        print(f"NaN detected in T_probs for state {s} and action {a}")
+        print(f"T_probs: {T_probs}")
+    
     s_prime_idx = np.random.choice(len(pomdp.S), p=T_probs)
     s_prime = pomdp.S[s_prime_idx]
     
@@ -129,6 +139,16 @@ def simulate_step(pomdp: POMDP, s: Any, a: Any) -> Tuple[Any, float, Any]:
     # Sample observation
     O_probs = np.array([pomdp.O_func(a, s_prime, o) for o in pomdp.O])
     O_probs = O_probs / O_probs.sum()
+    
+    # Ensure O_probs is valid by checking if the sum is zero
+    if O_probs.sum() == 0:
+        O_probs = np.ones(len(pomdp.O)) / len(pomdp.O)  # Assign uniform probabilities as fallback
+    
+    # Debugging: Check for NaN values in O_probs
+    if np.isnan(O_probs).any():
+        print(f"NaN detected in O_probs for action {a} and next state {s_prime}")
+        print(f"O_probs: {O_probs}")
+    
     o_idx = np.random.choice(len(pomdp.O), p=O_probs)
     o = pomdp.O[o_idx]
     
